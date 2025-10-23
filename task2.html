@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 5px;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      padding: 10px 20px;
+      background-color: white;
+      color: #333;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .hero button:hover {
+      background-color: #eee;
+    }
+
+    /* Features */
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+    .feature {
+      background-color: #f1f1f1;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+    .feature h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* Testimonials */
+    .testimonials {
+      background-color: #e9ecef;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .testimonial-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .testimonial {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+    }
+    .testimonial p {
+      font-style: italic;
+    }
+    .testimonial h4 {
+      margin-top: 10px;
+      color: #007bff;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+      .feature, .testimonial {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>TechNova Startup</h1>
+    <p>Innovate | Create | Grow</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Welcome to TechNova</h2>
+    <p>Your one-stop platform for innovative tech solutions that drive business success.</p>
+    <button>Get Started</button>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="feature">
+      <h3>🚀 Fast Performance</h3>
+      <p>Our product ensures quick load times and smooth user experience.</p>
+    </div>
+    <div class="feature">
+      <h3>🔒 Secure Data</h3>
+      <p>We prioritize your data safety with advanced encryption methods.</p>
+    </div>
+    <div class="feature">
+      <h3>☁ Cloud Integration</h3>
+      <p>Seamlessly connect with major cloud services for better scalability.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-container">
+      <div class="testimonial">
+        <p>"TechNova transformed our workflow — super efficient and easy to use!"</p>
+        <h4>- Priya Sharma</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Great support and smooth experience. Highly recommended!"</p>
+        <h4>- Rahul Mehta</h4>
+      </div>
+      <div class="testimonial">
+        <p>"A perfect tech partner for our growing business!"</p>
+        <h4>- Sneha Patel</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 TechNova | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
